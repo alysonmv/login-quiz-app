@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Maven Pro", sans-serif;
+  /* color: rgb(2, 2, 2); */
+  color: rgba(240, 140, 47, 1) ;
+}
+body,
+html{
+  min-height: 100vh;
+  height: 100%;
+  /* background-color: rgba(240, 140, 47, 1); */
+  background-color: black;
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  color: black;
+  background: linear-gradient(
+    90deg,
+    rgba(207, 83, 6, 1) 0%,
+    rgba(240, 140, 47, 1) 100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover{
+  background: linear-gradient(
+    90deg,
+    rgba(240, 140, 47, 1) 0%,
+    rgba(207, 83, 6, 1) 100%
+  );
+}
